@@ -1,5 +1,4 @@
 const axios = require('axios');
-const { findById } = require('./user.controllers');
 
 const instance = axios.create({ 
     baseURL: "https://favqs.com/api/",
